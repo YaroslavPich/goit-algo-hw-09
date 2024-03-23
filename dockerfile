@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Запустимо наш застосунок всередині контейнера
-CMD ["python", "main.py"]
+CMD ["pipenv", "python", "main.py"]

@@ -1,0 +1,2 @@
+Пул з репозиторію docker:
+docker run -i artsof/bot:bot
